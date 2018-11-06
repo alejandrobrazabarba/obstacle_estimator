@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package>
+  <name>obstacle_estimator</name>
+  <version>0.0.0</version>
+  <description>Package for an obstacle estimator integrating data from different sensors (e.g., sonar, radar, velodyne, etc.) to estimate obstacles positions and velocities. </description>
+
+  <maintainer email="jcapitan@us.es">Jesus Capitan</maintainer>
+  <author email="jcapitan@us.es">Jesus Capitan</author>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <license>TODO</license>
+  <build_depend>message_generation</build_depend>
+  <build_depend>eigen</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>tf2</build_depend>
+  
+  <run_depend>message_runtime</run_depend>
+  <run_depend>eigen</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>visualization_msgs</run_depend>
+  <run_depend>tf2</run_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
